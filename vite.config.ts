@@ -12,6 +12,7 @@ export default ({ command }: ConfigEnv): UserConfigExport => {
       host: true,
       port: 28847,
     },
+    base: "/blog/",
     plugins: [
       vue(),
       viteMockServe({
